@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+      color: darkslategray;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      line-height: 25px;
+  }
+
+  body{
+      padding: 50px;
+      background: linear-gradient(darkslategray,turquoise);
+  }
+
+  h1{
+      text-transform: uppercase;
+      font-size: 50px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+  h2{
+      font-size: 30px;
+      text-transform: uppercase;
+      border-top:3px solid lightslategrey;
+      border-bottom:3px solid lightslategrey;
+      padding: 5px;
+      margin-bottom: 15px;
+    }
+  h3{
+      color: teal;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  
+  p{
+      line-height: 1.5;
+  }
+  section+section{
+      margin-top: 30px;
+  }
+  a{
+      text-decoration: none;
+      color: inherit;
+
+  }
+  ul{
+      list-style: none;
+  }
+  .profile{
+      text-align: center;
+      padding: 30px;
+      border:teal 2px solid ;
+      border-bottom: none;
+      background-color: white;
+  }
+  .profile p{
+      color: dimgrey;
+      font-size: 25px ;
+  }
+  .contact>ul{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+    .contact ul{
+        margin-top: -5px;
+  }
+  .contact .links{
+      text-align: right;
+  }
+  .details li{
+    border-bottom:1px solid lightslategrey;
+    padding: 5px;
+  }
+    .links li{
+        border-bottom:1px solid lightslategrey;
+        padding: 5px;
+    }
+  
+  .skills>ul{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-gap:16px;
+  }
+  .skillItems{
+      padding-left: 20px ;
+      list-style-type:circle;
+  }
+  .language>ul{
+      list-style:circle;
+  }
+  .timeline .event + .event{
+       padding-top: 10px;
+  }
+  .timeline .event{
+      display: grid;
+      grid-template-columns: 55px auto;
+  }
+  .timeline .content{
+      border-left: 1px solid lightslategrey;
+      padding-left: 16px;
+      margin-left: 16px;
+  }
+  .content> p{
+      margin-bottom: 5px;
+      color: turquoise;
+  }
+  .resume{
+      display: grid;
+      grid-template-columns:40% 1fr ;
+      grid-gap: 30px;
+      background-color: white;
+      padding: 16px;
+      border: teal 2px solid;
+      border-top: none;
+  }
+  
+  
+
+  
